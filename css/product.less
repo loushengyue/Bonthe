@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f3f4f5;
+  h4 {
+    font-size: 18px;
+    font-family: Î¢ÈíÑÅºÚ;
+    color: #020202;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 44px;
+  }
+  h5{
+    font-size: 18px;
+    font-family: Î¢ÈíÑÅºÚ;
+    color: #020202;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 34px;
+    position: relative;
+    margin-bottom: 40px;
+    &:before{
+      content: "";
+      width: 150px;
+      height: 2px;
+      background-color: #d4d4d4;
+      position: absolute;
+      left: 326px;
+      top: 10px;
+    }
+    &:after{
+      content: "";
+      width: 150px;
+      height: 2px;
+      background-color: #d4d4d4;
+      position: absolute;
+      right: 326px;
+      top: 10px;
+    }
+  }
+  ul{
+    overflow: hidden;
+    font-size: 0;
+    li{
+      float: left;
+      border: 5px solid #f3f4f5;
+      a:first-child img{
+        width: 390px;
+        height: 294px;
+        background-color: #ffffff;
+      }
+      &>div{
+        width: 390px;
+        height: 80px;
+        text-align: center;
+        background-color: #fff;
+        a:first-child{
+          display: block;
+          font-size: 24px;
+          color: #020202;
+          line-height: 36px;
+        }
+        a:last-child{
+          display: block;
+          font-size: 18px;
+          color: #434342;
+        }
+      }
+      &:hover div{
+        background-color: #90b4e0;
+        a{
+          color: #fefefe;
+        }
+      }
+    }
+  }
+  .page{
+    margin-top: 40px;
+    float: right;
+    a:not(:nth-child(3)){
+      font-size: 24px;
+      color: #020202;
+      text-align: center;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #d7d7d7;
+      &:last-child{
+        font-size: 18px;
+        width: 94px;
+      }
+    }
+    a:nth-child(3){
+      margin: 0 8px;
+    }
+    a.current{
+      background-color: #3b84cd;
+      color: #fcfeff;
+    }
+  }
+
+}
