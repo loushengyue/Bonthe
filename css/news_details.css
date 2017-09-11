@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1100px;
+  margin: 0 auto;
+}
+.main h3 {
+  font-size: 30px;
+  color: #020202;
+  font-weight: 100;
+  border-left: 7px solid #3477c8;
+  padding-left: 10px;
+  line-height: 35px;
+  margin: 46px 0 24px;
+}
+.main .time {
+  margin-left: 18px;
+  font-size: 14px;
+  color: #7d7d75;
+}
+.main .share-to {
+  margin-left: 18px;
+  margin-top: 20px;
+}
+.main .share-to span {
+  font-size: 14px;
+  color: #7d7d75;
+  vertical-align: middle;
+}
+.main .share-to img {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.main .text {
+  margin-left: 18px;
+  margin-top: 50px;
+}
+.main .text p {
+  margin-bottom: 50px;
+  margin-top: 0;
+  width: 1070px;
+  text-indent: 2em;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 32px;
+}
+.main .text p:nth-of-type(2) {
+  margin-bottom: 10px;
+}
+.main .text img {
+  width: 1006px;
+  height: 465px;
+}
+.main .flip {
+  margin-top: 90px;
+  text-align: right;
+}
+.main .flip a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #030303;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.main .flip a:hover {
+  color: red;
+}
